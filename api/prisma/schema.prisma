@@ -12,3 +12,22 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+enum Status {
+  TODO
+  DOING
+  DONE
+}
+
+model Task {
+  id Int @unique @default(autoincrement())
+
+  title       String
+  description String
+  state       Status
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("tasks")
+}
