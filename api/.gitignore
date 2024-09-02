@@ -1,4 +1,5 @@
-prisma/migatrions
+
+prisma/migrations
 package-lock.json
 .env
 node_modules
