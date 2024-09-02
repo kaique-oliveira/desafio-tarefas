@@ -10,10 +10,6 @@ app.use(express.json());
 app.use(cors());
 
 app.use('/api', router);
-// Rota de exemplo
-app.get('/', (req, res) => {
-  res.json({ message: 'API UP' });
-});
 
 // Inicia o servidor
 app.listen(port, () => {
