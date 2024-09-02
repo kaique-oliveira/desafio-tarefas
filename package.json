@@ -1,0 +1,17 @@
+{
+  "name": "desafio-tarefas",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Kaique Oliveira Antonio",
+  "license": "ISC",
+  "description": "Desafio tarefas",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "prisma": "^5.19.1"
+  }
+}
