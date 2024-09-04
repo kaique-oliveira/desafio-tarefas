@@ -6,7 +6,7 @@ Desafio Tarefas
 <h4 align="center">Um aplicativo para organizar as tarefas utilizando 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Javascript</a>,
 <a href="https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev" target="_blank">React JS</a>
- e <a href="https://www.electronjs.org" target="_blank" href="https://nodejs.org/pt">Node JS</a>.</h4>
+ e <a target="_blank" href="https://nodejs.org/pt">Node JS</a>.</h4>
 
 ## Sobre o projeto
 
