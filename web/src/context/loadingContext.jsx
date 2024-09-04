@@ -29,7 +29,7 @@ export function LoadingProvider({ children }) {
             justifyContent: 'center',
             alignItems: 'center',
             position: 'fixed',
-            zIndex: 100,
+            zIndex: 40000,
             top: 0,
             left: 0,
           }}
