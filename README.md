@@ -14,7 +14,7 @@ O desafio tinha como propósito desenvolver um aplicativo para criar, editar, de
 
 No Back-end construi uma API Utilizando Node JS com express, e banco de dados postgres com ORM prisma para realizar as operações.
 
-No Fron-end utilizei React JS com a biblioteca MATERIAL UI para a estilização dos components.
+No Front-end utilizei React JS com a biblioteca MATERIAL UI para a estilização dos components.
 
 ## Deploy
 
