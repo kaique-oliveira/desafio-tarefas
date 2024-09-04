@@ -1,25 +1,71 @@
-import { Grid2, Stack } from '@mui/material';
-import styled from 'styled-components';
+export const WrapperPage = {
+  width: '100%',
+  height: '100vh',
 
-export const WrapperPage = styled(Stack)`
-  width: 100vw;
-  height: 100vh;
+  padding: '32px',
 
-  padding: 32px;
-  background-color: ${({ theme }) => theme.COLORS.BACKGOUND};
-  box-sizing: border-box;
-`;
+  overflow: 'hidden',
+  position: 'relative',
+};
 
-export const WrapperPanel = styled(Grid2)`
-  width: 100%;
-  height: 100%;
+export const WrapperPanel = {
+  width: '100%',
+  height: `calc(100vh - 140px)`,
+  minHeight: '500px',
+  position: 'relative',
+};
 
-  background-color: ${({ theme }) => theme.COLORS.HIGHLIGHT};
-`;
+export const PanelTask = {
+  maxHeight: '100%',
+  borderRadius: '12px',
 
-export const PanelTask = styled(Grid2)`
-  /* width: 100%;
-  height: 100%; */
+  padding: '8px 16px',
+  bgcolor: '#191919',
+};
 
-  background-color: pink;
-`;
+export const WrapperHeaderPanelTask = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+  overflow: 'hidden',
+};
+
+export const ListTasks = {
+  width: '100%',
+  height: '92%',
+
+  display: 'flex',
+  justifyContent: 'flex-start',
+  alignItems: 'flex-start',
+  marginTop: '8px',
+
+  gap: '16px',
+  flexDirection: 'column',
+  overflowY: 'auto',
+  paddingRight: '4px !important',
+};
+
+export const WrapperForm = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 400,
+  bgcolor: '#191919',
+  border: '2px solid #000',
+  boxShadow: 24,
+  borderRadius: '12px',
+  p: 4,
+
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '16px',
+};
+
+export const WrapperButtons = {
+  display: 'flex',
+  gap: '16px',
+
+  justifyContent: 'flex-end',
+  marginTop: '32px',
+};
